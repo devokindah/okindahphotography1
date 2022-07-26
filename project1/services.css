@@ -1,0 +1,73 @@
+@import url('https://font.gooleapis.com/css2?Allura&family=Josefin+Sans:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+      background:grey;
+      font-family:'Josefin Sans',sans-serif;
+}
+.wrap{
+  margin-top:10%;
+  }
+  .wrap h1{
+    font-family:'Allura', cursive;
+    font-size:52px;
+    margin-bottom:60px;
+    text-align:center;
+    }
+    .service{
+      display:flex;
+      text-align:center;
+      width:auto;
+      justify-content:center;
+      flex-wrap:wrap;
+      }
+      .service .service-category{
+        background:white;
+        margin:5px; 
+        margin-bottom:50px;
+        width:300px;
+        padding:20px;
+        line-height:20px; 
+        color:rgb(8, 17, 3);
+        position:relative;
+        border-radius:10px;
+        }
+        .service .service-category h2{
+          color:#34a744;
+          font-size:26px;
+          margin-top:50px;
+        }
+        h1{
+            font-weight:normal;
+            text-align:center;
+            font-size:35px;
+            margin:40px;
+            position:relative;
+            color:blue;
+            font-family:cursive;
+      }
+      h1::before{
+                content:"";
+                  position:absolute;
+                width:100px;
+                height:3px;
+                background-color:purple;
+                bottom:-10px;
+                left:50%;
+                transform:translateX(-50%);
+                animation:animate 4s linear infinite;
+      }
+      @keyframes animate{
+                        0%{
+                        width:100px;
+      }
+                        50%{
+                        width:200px;
+      }
+                        100%{
+                        width:100px;
+      }
+      

@@ -1,0 +1,22 @@
+body{
+	background-color:seagreen;
+	margin: 30px;
+	position:relative;
+}
+h1{
+	font-color:purple;
+}
+center{
+	background-color: whitesmoke;
+}
+.body{
+	 text-align:center;
+	 font-color:white;
+	}
+p{
+	text-align: end;
+	
+}
+td{
+	padding: 8px;
+}

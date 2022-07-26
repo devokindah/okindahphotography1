@@ -1,0 +1,52 @@
+
+body{
+     background-color:grey;
+}
+img{
+    position:relative;
+    border-radius:10px;
+    cursor:pointer;
+     text-align:center;
+     box-shadow:4px 4px 6px skyblue;
+}
+.photos{   
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(3,1fr);
+    margin:auto;
+    width:90%;
+}
+.photos img{
+	    border-radius:15px;
+ 	    transition:0,3s;
+}
+h1{
+	font-weight:normal;
+	text-align:center;
+	font-size:35px;
+	margin:40px;
+	position:relative;
+	color:blue;
+	font-family:cursive;
+}
+h1::before{
+	    content:"";
+            position:absolute;
+	    width:100px;
+	    height:3px;
+	    background-color:purple;
+	    bottom:-10px;
+	    left:50%;
+	    transform:translateX(-50%);
+	    animation:animate 4s linear infinite;
+}
+@keyframes animate{
+			0%{
+			width:100px;
+}
+			50%{
+			width:200px;
+}
+			100%{
+			width:100px;
+}

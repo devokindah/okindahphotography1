@@ -1,0 +1,23 @@
+@import url('https://font.gooleapis.com/css2?Allura&family=Josefin+Sans:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+     background:grey;
+     font-family:'Josefin Sans',sans-serif;
+}
+.wrapper h1{
+	    font-family:Allura',cursive;
+	    font-size:52px;
+	    margin-bottom:60px:+65
+	    text-align:center;
+}
+.team{
+      display:flex;
+      text-align:center;
+      width:auto;
+      justify-content:center;
+      flex-wrap:wrap;
+}
